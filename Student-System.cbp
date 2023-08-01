@@ -13,6 +13,10 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="Model" />
+					<Add directory="Repository" />
+					<Add directory="Service" />
+					<Add directory="Controller" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +26,10 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="Model" />
+					<Add directory="Repository" />
+					<Add directory="Service" />
+					<Add directory="Controller" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,6 +40,32 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Controller/CourseControllerImpl.cpp" />
+		<Unit filename="Controller/CourseControllerImpl.h" />
+		<Unit filename="Controller/StudentControllerImpl.cpp" />
+		<Unit filename="Controller/StudentControllerImpl.h" />
+		<Unit filename="Model/Course.cpp" />
+		<Unit filename="Model/Course.h" />
+		<Unit filename="Model/Person.cpp" />
+		<Unit filename="Model/Person.h" />
+		<Unit filename="Model/Student.cpp" />
+		<Unit filename="Model/Student.h" />
+		<Unit filename="Model/Teacher.cpp" />
+		<Unit filename="Model/Teacher.h" />
+		<Unit filename="Repository/CourseRepositoryImpl.cpp" />
+		<Unit filename="Repository/CourseRepositoryImpl.h" />
+		<Unit filename="Repository/StudentRepositoryImpl.cpp" />
+		<Unit filename="Repository/StudentRepositoryImpl.h" />
+		<Unit filename="Repository/TeacherRepositoryImpl.cpp" />
+		<Unit filename="Repository/TeacherRepositoryImpl.h" />
+		<Unit filename="Service/CourseServiceImpl.cpp" />
+		<Unit filename="Service/CourseServiceImpl.h" />
+		<Unit filename="Service/StudentServiceImpl.cpp" />
+		<Unit filename="Service/StudentServiceImpl.h" />
+		<Unit filename="Service/TeacherServiceImpl.cpp" />
+		<Unit filename="Service/TeacherServiceImpl.h" />
+		<Unit filename="TeacherControllerImpl.cpp" />
+		<Unit filename="TeacherControllerImpl.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

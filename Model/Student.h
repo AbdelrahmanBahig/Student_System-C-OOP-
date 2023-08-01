@@ -1,29 +1,26 @@
 #ifndef STUDENT_H
 #define STUDENT_H
+#include "Teacher.h"
+#include "Course.h"
+#include "Person.h"
 
-
-class Student
+class Student : public Person
 {
      private:
-         int id;
-         string name ;
-         int age ;
-         string phoneNumber;
          double gpa;
+         Teacher teachers [5];
+         Course courses[5];
 
     public:
+        static int counter ;
         Student();
-        void setId(int id);
-        int getId();
-        void setName(string name);
-        string getName();
-        void setAge(int age);
-        int getAge();
-        void setPhoneNumber(string phoneNumber);
-        string getPhoneNumber();
         void setGpa(double gpa);
         double getGpa();
-
+        void setTeachers(Teacher teachers[5]);
+        Teacher * getTeachers();
+         void setCourses(Course courses[5]);
+        Course * getCourses();
+friend istream& operator>>(istream&, Student&);
 
 
     protected:
