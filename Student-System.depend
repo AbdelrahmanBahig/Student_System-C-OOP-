@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1690883978 source:e:\fci\oop projects\student-system\main.cpp
+1690895505 source:e:\fci\oop projects\student-system\main.cpp
 	<iostream>
 	"Teacher.h"
 	"Student.h"
 	"StudentControllerImpl.h"
 	"TeacherControllerImpl.h"
+	"CourseControllerImpl.h"
 
 1690642149 source:e:\fci\oop projects\student-system\model\person.cpp
 	"Person.h"
@@ -12,45 +13,45 @@
 1690835848 e:\fci\oop projects\student-system\model\person.h
 	<iostream>
 
-1690835723 source:e:\fci\oop projects\student-system\model\student.cpp
+1690894916 source:e:\fci\oop projects\student-system\model\student.cpp
 	"Student.h"
 
-1690835723 e:\fci\oop projects\student-system\model\student.h
+1690894914 e:\fci\oop projects\student-system\model\student.h
 	"Teacher.h"
 	"Course.h"
 	"Person.h"
 
-1690842366 source:e:\fci\oop projects\student-system\model\teacher.cpp
+1690902267 source:e:\fci\oop projects\student-system\model\teacher.cpp
 	"Teacher.h"
 
 1690842745 e:\fci\oop projects\student-system\model\teacher.h
 	"Person.h"
 
-1690888044 source:e:\fci\oop projects\student-system\model\course.cpp
+1690902461 source:e:\fci\oop projects\student-system\model\course.cpp
 	"Course.h"
 
 1690888050 e:\fci\oop projects\student-system\model\course.h
 	<iostream>
 
-1690804481 source:e:\fci\oop projects\student-system\repository\courserepositoryimpl.cpp
+1690902504 source:e:\fci\oop projects\student-system\repository\courserepositoryimpl.cpp
 	"CourseRepositoryImpl.h"
 
 1690804454 e:\fci\oop projects\student-system\repository\courserepositoryimpl.h
 	"Course.h"
 
-1690841595 source:e:\fci\oop projects\student-system\repository\studentrepositoryimpl.cpp
+1690895397 source:e:\fci\oop projects\student-system\repository\studentrepositoryimpl.cpp
 	"StudentRepositoryImpl.h"
 
-1690804130 e:\fci\oop projects\student-system\repository\studentrepositoryimpl.h
+1690895397 e:\fci\oop projects\student-system\repository\studentrepositoryimpl.h
 	"Student.h"
 
-1690842453 source:e:\fci\oop projects\student-system\repository\teacherrepositoryimpl.cpp
+1690902493 source:e:\fci\oop projects\student-system\repository\teacherrepositoryimpl.cpp
 	"TeacherRepositoryImpl.h"
 
 1690804532 e:\fci\oop projects\student-system\repository\teacherrepositoryimpl.h
 	"Teacher.h"
 
-1690888316 source:e:\fci\oop projects\student-system\service\courseserviceimpl.cpp
+1690902461 source:e:\fci\oop projects\student-system\service\courseserviceimpl.cpp
 	"CourseServiceImpl.h"
 
 1690888318 e:\fci\oop projects\student-system\service\courseserviceimpl.h
@@ -62,7 +63,7 @@
 1690842573 e:\fci\oop projects\student-system\service\teacherserviceimpl.h
 	"TeacherRepositoryImpl.h"
 
-1690841595 source:e:\fci\oop projects\student-system\service\studentserviceimpl.cpp
+1690901560 source:e:\fci\oop projects\student-system\service\studentserviceimpl.cpp
 	"StudentServiceImpl.h"
 
 1690841594 e:\fci\oop projects\student-system\service\studentserviceimpl.h

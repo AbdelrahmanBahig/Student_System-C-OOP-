@@ -47,7 +47,7 @@ int main()
                     Student student;
                     cin >> student;
                     studentController.addStudent(student);
-                    cout << "Id:" <<student.getId()<< endl ;
+                   // cout << "Id:" <<student.getId()<< endl ;
                 }
 
                 break;

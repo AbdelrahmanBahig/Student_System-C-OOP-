@@ -14,6 +14,8 @@ if(teachersCount == capacity){
      cout << "You can't add new Teacher , capacity is full !";
 }
 else{
+    teacher.counter++;
+    teacher.setId(teacher.counter);
     teachers[teachersCount]= teacher;
     teachersCount++;
 }

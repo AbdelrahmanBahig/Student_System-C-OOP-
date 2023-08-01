@@ -1,8 +1,8 @@
 #include "Student.h"
-int Student::counter=0;
+int Student::counter = 0;
 Student::Student()
 {
-    //ctor
+
 }
 void Student:: setGpa(double gpa){
     this->gpa = gpa;
@@ -35,8 +35,6 @@ istream &operator>>( istream &input, Student &student)
     input >> student.age;
     input >> student.phoneNumber;
     input >> student.gpa;
-    Student::counter++;
-    student.id=Student::counter;
     return input;
 }
 

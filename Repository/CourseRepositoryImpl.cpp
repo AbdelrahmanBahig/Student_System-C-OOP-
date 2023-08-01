@@ -12,6 +12,8 @@ if(coursesCount = capacity){
          cout << "You can't add new Course , capacity is full !";
 }
 else{
+         course.counter++;
+    course.setId(course.counter);
     courses[coursesCount]= course ;
     coursesCount++;
 }

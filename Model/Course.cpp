@@ -35,7 +35,6 @@ istream &operator>>( istream &input, Course&course)
     cout << "Name   Hours        " <<endl;
     input >> course.name;
     input >> course.hours;
-    Course::counter++;
-    course.id=Course::counter;
+
     return input;
 }

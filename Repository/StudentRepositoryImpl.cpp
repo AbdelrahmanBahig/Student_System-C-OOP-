@@ -15,8 +15,11 @@ void StudentRepositoryImpl::addStudent(Student student){
         cout << "You can't add new student , capacity is full !";
     }
     else{
-    students[studentsCount]= student ;
+        student.counter++;
+    student.setId(student.counter) ;
+    students[studentsCount]= student ;;
     studentsCount++;
     }
+    cout << student.getId() ;
 
 }

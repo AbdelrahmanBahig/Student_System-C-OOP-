@@ -26,7 +26,6 @@ istream &operator>>( istream &input, Teacher &teacher)
     input >> teacher.age;
     input >> teacher.phoneNumber;
     input >> teacher.salary;
-    Teacher::counter++;
-    teacher.id=Teacher::counter;
+
     return input;
 }
